@@ -4,8 +4,7 @@ public class ds_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("請輸入圓的半徑：");
-        double i = scanner.nextDouble();
-        System.out.println("圓的面積為：" + Math.PI * i * i);
+        int i =scanner.nextInt();
+        System.out.println("圓的面積為：" + i*i*3.14);
     }
 }
-
