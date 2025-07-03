@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int i = scn.nextInt();           
+        double d = scn.nextDouble();    
+        double sum = i + d;             
+        System.out.printf("%.2f\n", sum); 
+    }
+}

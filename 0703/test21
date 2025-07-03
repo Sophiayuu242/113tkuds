@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        double r = scn.nextDouble();
+        double area = 3.14 * r * r;
+        System.out.printf("%.2f\n", area);
+    }
+}

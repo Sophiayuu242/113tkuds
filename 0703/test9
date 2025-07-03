@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        double num = scn.nextDouble();      
+        System.out.printf("%.2f\n", num);    
+    }
+}
