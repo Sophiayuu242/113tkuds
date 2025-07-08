@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class Test1 {
+public class test1 {
     public static void main(String[] args) {
         int[] s = {1, 3, 5, 7, 9, 11, 13}; 
         Scanner scn = new Scanner(System.in);
