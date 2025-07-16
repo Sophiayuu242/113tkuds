@@ -42,7 +42,12 @@ public class Q2_NextTHSRDeparture {
     }
 }
 
+
+
 /*
- * Time Complexity: O(log n)將查詢轉換為分鐘數為 O(1)對已排序的時間陣列使用 binary search，時間為 O(log n)
+ * Time Complexity: O(log n)
+ * 說明：
+ * 將查詢轉換為分鐘數為 O(1)
+ * 對已排序的時間陣列使用 binary search，時間為 O(log n)
  * 其他處理皆為常數時間或 O(n)
  */

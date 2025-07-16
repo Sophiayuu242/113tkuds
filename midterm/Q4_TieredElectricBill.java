@@ -52,5 +52,8 @@ public class Q4_TieredElectricBill {
 }
 
 /*
- * Time Complexity: O(n)每筆用電量使用固定段數計算，為 O(1)總共處理 n 筆輸入，總時間為 O(n)
+ * Time Complexity: O(n)
+ * 說明：
+ * 每筆用電量使用固定段數計算，為 O(1)
+ * 總共處理 n 筆輸入，總時間為 O(n)
  */

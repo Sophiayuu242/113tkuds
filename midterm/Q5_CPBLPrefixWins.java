@@ -26,5 +26,8 @@ public class Q5_CPBLPrefixWins {
 }
 
 /*
- * Time Complexity: O(k)前綴陣列建立僅需遍歷前 k 項資料，故為 O(k)輸出也為 O(k)，總體時間複雜度為 O(k)
+ * Time Complexity: O(k)
+ * 說明：
+ * 前綴陣列建立僅需遍歷前 k 項資料，故為 O(k)
+ * 輸出也為 O(k)，總體時間複雜度為 O(k)
  */

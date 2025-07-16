@@ -29,7 +29,10 @@ public class Q3_NightMarketRanking {
     }
 }
 
+
 /*
- * Time Complexity: O(n^2)外層最多跑 5 次（找出前 5 大），內層最多 n 次
+ * Time Complexity: O(n^2)
+ * 說明：
+ * 外層最多跑 5 次（找出前 5 大），內層最多 n 次
  * 因此總比較次數為 5n，仍屬 O(n^2) 等級的選擇排序
  */

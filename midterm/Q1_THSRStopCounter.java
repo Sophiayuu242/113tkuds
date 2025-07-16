@@ -28,5 +28,8 @@ public class Q1_THSRStopCounter {
 }
 
 /*
- * Time Complexity: O(n)最多走訪整個陣列兩次以找到起點與終點索引。其餘皆為常數時間。
+ * Time Complexity: O(n)
+ * 說明：
+ * 最多走訪整個陣列兩次以找到起點與終點索引。
+ * 其餘操作皆為常數時間。
  */
