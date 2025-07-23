@@ -1,0 +1,42 @@
+public class SimpleBinaryTree {
+    static class TreeNode {
+        int data;
+        TreeNode left;
+        TreeNode right;
+        
+        public TreeNode(int data) {
+            this.data = data;
+        }
+    }
+
+    // 印出整棵樹的方法（前序遍歷 + 縮排表示層級）
+    public static void printTree(TreeNode node, String indent) {
+        if (node == null) {
+            System.out.println(indent + "null");
+            return;
+        }
+        System.out.println(indent + node.data);
+        printTree(node.left, indent + "  ");
+        printTree(node.right, indent + "  ");
+    }
+    
+    public static void main(String[] args) {
+        // 建立一個簡單的二元樹
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(5);
+        
+        System.out.println("樹的結構:");
+        System.out.println("根節點: " + root.data);
+        System.out.println("左子樹: " + root.left.data);
+        System.out.println("右子樹: " + root.right.data);
+        System.out.println("左子樹的左子樹: " + root.left.left.data);
+        System.out.println("左子樹的右子樹: " + root.left.right.data);
+
+        // 使用 printTree 印出整棵樹
+        System.out.println("\n完整樹結構:");
+        printTree(root, "");
+    }
+}
